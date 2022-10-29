@@ -25,68 +25,43 @@ RegisterNumber: 212221230073
 */
 ```
 
-```
-# least square method
 
 import matplotlib.pyplot as plt
 x=[5,6,3,2,6,7,1,2]
 y=[2,3,6,5,8,3,5,8]
-plt.scatter(x,y);
-plt.plot(x,y)
+plt.scatter(x,y)
 plt.show()
+
+## Least Square Method
 
 import numpy as np
 import matplotlib.pyplot as plt
-
-# assign input
-
 X=np.array([0,1,2,3,4,5,6,7,8,9])
 Y=np.array([1,3,2,5,7,8,8,9,10,12])
-
-# mean values of input
-
+ #mean 
 X_mean=np.mean(X)
 print(X_mean)
-Y_mean=np.mean(Y)
+Y_mean=np.mean(y)
 print(Y_mean)
-
 num=0
 denum=0
-
-for i in range (len(X)):
+for i in range(len(x)):
   num+=(X[i]-X_mean)*(Y[i]-Y_mean)
-  denum+=(X[i]-X_mean)**2
-  
-# find m
-
+  denum+=(x[i]-X_mean)**2
 m=num/denum
-print(m)
-
-# find b
-
 b=Y_mean-m*X_mean
-print(b)
-
-# find Y_pred
-
+print(m,b)
 Y_pred=m*X+b
-print(Y_pred)
-
-# plot graph
-
+print("y pred:",Y_pred)
 plt.scatter(X,Y)
-plt.plot(X,Y_pred,color='green')
+plt.plot(X,Y_pred,color='pink')
 plt.show()
 ```
 
 # OUTPUT:
-![output](o1.png)
+![pa1![pa2](https://user-images.githubusercontent.com/95388047/198842684-50a122b2-8e7a-4f7d-a3a1-fb0643f9a8ae.jpeg)
+](https://user-images.githubusercontent.com/95388047/198842666-26d01cce-4d8e-40d7-92fe-831156f4b32f.jpeg)
 
-![output](o2.png)
-
-![output](o3.png)
-
-![output](o4.png)
 
 # RESULT:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
