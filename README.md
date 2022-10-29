@@ -23,7 +23,7 @@ Program to implement univariate Linear Regression to fit a straight line using l
 Developed by: Parshwanath
 RegisterNumber: 212221230073
 */
-```
+
 
 
 import matplotlib.pyplot as plt
@@ -59,9 +59,9 @@ plt.show()
 ```
 
 # OUTPUT:
-![pa1![pa2](https://user-images.githubusercontent.com/95388047/198842684-50a122b2-8e7a-4f7d-a3a1-fb0643f9a8ae.jpeg)
-](https://user-images.githubusercontent.com/95388047/198842666-26d01cce-4d8e-40d7-92fe-831156f4b32f.jpeg)
 
+
+![pa1](https://user-images.githubusercontent.com/95388047/198842727-22592a70-d062-4c73-bab0-64ef78478fe1.jpeg)
 
 # RESULT:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
