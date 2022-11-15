@@ -61,8 +61,8 @@ plt.show()
 # OUTPUT:
 
 
-![pa1](https://user-images.githubusercontent.com/95388047/198842727-22592a70-d062-4c73-bab0-64ef78478fe1.jpeg)
-![pa2](https://user-images.githubusercontent.com/95388047/198842757-54edc979-cb6a-4477-b6b2-3e263e2197c1.jpeg)
+![pa1](https://user-images.githubusercontent.com/94222288/198822485-1333b271-3772-463e-b3f0-503005ead8e5.jpeg)
+![pa2](https://user-images.githubusercontent.com/94222288/198822491-226d35aa-7890-4236-9f95-4c19a87ad34d.jpeg)
 
 
 # RESULT:
